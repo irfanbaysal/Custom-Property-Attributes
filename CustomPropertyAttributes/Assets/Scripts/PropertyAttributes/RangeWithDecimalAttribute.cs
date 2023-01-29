@@ -17,6 +17,7 @@ namespace PropertyAttributes
 
             Min = (float)Math.Round(Min, Digit);
             Max = (float)Math.Round(Max, Digit);
+            Digit = Mathf.Clamp(Digit, 0, 3);
 
         }
     }
