@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 namespace PropertyAttributes
 {
-
     public class MinMaxSliderAttribute : PropertyAttribute
     {
         public readonly float MinLimit;
@@ -11,9 +10,9 @@ namespace PropertyAttributes
 
         public MinMaxSliderAttribute(float minLimit, float maxLimit,int digit)
         {
-            this.MinLimit = minLimit;
-            this.MaxLimit = maxLimit;
-            this.Digit = digit;
+            MinLimit = minLimit;
+            MaxLimit = maxLimit;
+            Digit = digit;
             
             MinLimit = (float)Math.Round(MinLimit, Digit);
             MaxLimit = (float)Math.Round(MaxLimit, Digit);

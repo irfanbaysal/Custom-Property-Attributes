@@ -246,10 +246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d729f428313ac4a5e8008816efce2da9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSlider: 1
+  defaultSlider: 0.655
   oneDigitSlider: 0.6
-  twoDigitSlider: 0.37
-  minMaxSlider: {x: 0.20663482, y: 0.5602848}
+  twoDigitSlider: 0.17
+  oneDigitMinMaxSlider: {x: 0.3, y: 0.7}
+  twoDigitMinMaxSlider: {x: 0.13, y: 0.85}
 --- !u!4 &750907493
 Transform:
   m_ObjectHideFlags: 0
